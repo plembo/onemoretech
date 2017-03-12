@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Skype Web
+Comment=Skype Web App
+Exec=/usr/bin/google-chrome-stable https://web.skype.com/en/
+Terminal=false
+Icon=skype-web.png
+Type=Application
+Categories=Network;Chat;
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+
