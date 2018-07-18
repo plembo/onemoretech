@@ -2,7 +2,8 @@
 # Loads / unloads pulseaudio loopback module in order to eg. be redirect
 #  mic input to headphones.
 # Usage: micloopback [on|off]
-#
+# Original code by https://github.com/iamc
+
 if [ $# -ne 1 ]; then
     echo "Usage: $0 [on|off]" 
     exit 1
