@@ -1,0 +1,19 @@
+#!/bin/bash
+# Loads / unloads pulseaudio loopback module in order to eg. be redirect
+#  mic input to headphones.
+# Usage: micloopback [on|off]
+#
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 [on|off]" 
+    exit 1
+fi
+if [[ $1 == "on"  ]]; then
+    pactl load-module module-loopback latency_msec=1
+    echo "pulseaudio loopback module loaded"
+elif [[ $1 == "off" ]]; then
+    pactl unload-module module-loopback
+    echo "pulseaudio loopback module unloaded"
+else
+    echo "Usage: $0 [on|off]" 
+fi
+
