@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FreeMind
+Comment=Map your mind
+Exec=freemind
+Terminal=false
+Type=Application
+Icon=freemind-logo.png
+Categories=Office;Applications
+StartupNotify=true
