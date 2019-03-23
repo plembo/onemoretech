@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Freeplane
+Comment=Map your mind
+Exec=freeplane
+Type=Application
+Icon=freeplane.png
+Terminal=false
+StartupNotify=false
+Categories=Office;Applications;
+
