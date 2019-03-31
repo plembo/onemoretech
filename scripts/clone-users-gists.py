@@ -18,7 +18,7 @@ args = parser.parse_args()
 if args.user:
     gituser = args.user
 
-perpage = 100.0
+perpage = 25.0
 userurl = urlopen('https://api.github.com/users/' + gituser)
 public_gists = json.load(userurl)
 gistcount = public_gists['public_gists']
