@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-""" Download all a user's github gists into pwd.
+""" 
+Download all a user's github gists into pwd.
 Code by Fedir RYKHTIK and saranicole, on
 https://stackoverflow.com/questions/6724490/pull-all-gists-from-github.
-Syntax updated to Python 3; take username from command line;
+Syntax updated to Python 3; take username from command line; fix
+logging to file (include id and description)
+Refactored by P Lembo 2019/03/31
 """
 
 import json
