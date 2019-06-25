@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Jupyter Notebook
+Exec=jupyter notebook
+Type=Application
+Icon=jupyter.png
+Terminal=true
+Categories=Development
+
