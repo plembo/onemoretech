@@ -1,0 +1,12 @@
+[Unit]
+Description=MVS 3.8 Server
+After=multi-user.target
+
+[Service]
+Type=forking
+ExecStart=/d1/app/mvs/mvs-server
+User=mvs
+
+[Install]
+WantedBy=multi-user.target
+

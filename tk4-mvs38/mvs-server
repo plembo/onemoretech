@@ -1,0 +1,9 @@
+#!/bin/bash
+# Start the local MVS 3.8j system
+HOME="/d1/app/mvs"
+MVSDIR="${HOME}/mvs38"
+
+cd ${MVSDIR}
+
+./mvs &
+
