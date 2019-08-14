@@ -1,0 +1,13 @@
+[Unit]
+Description=Motion daemon
+After=multi-user.target
+
+[Service]
+# PIDFile=/var/run/motion/motion.pid
+ExecStart=/usr/bin/motion -n -c /etc/motion/motion.conf
+Type=simple
+StandardError=null
+User=motion
+
+[Install]
+WantedBy=multi-user.target
