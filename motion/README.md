@@ -7,6 +7,8 @@ Files provided:
 ```
 /etc/motion/motion.conf
 /etc/motion/camera1.conf
+/etc/motion/camera2.conf
+/etc/motion/camera3.conf
 /etc/logrotate.d/motion
 /etc/systemd/system/motion.service
 ```
