@@ -15,3 +15,7 @@ Files provided:
 
 Data and logs are stored on a separate ext4 volume (in my case /data/app/motion and /data/logs/motion).
 Original shipping configs from the motion project provided for comparison have "-dist" in their names.
+Log level reduced to 4 and log rotation scheduled every 4 days.
+
+Main changes made include setting netcam_keepalive and netcam_set_tcp to "on" to maintain a connection
+between the RTSP server on the camera and the motion server.
