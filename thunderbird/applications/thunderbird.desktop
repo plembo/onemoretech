@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Thunderbird
+GenericName=Thunderbird
+Comment=Launch Thunderbird
+Icon=thunderbird
+Categories=Network;
+Exec=thunderbird
+TryExec=thunderbird
+Terminal=false
