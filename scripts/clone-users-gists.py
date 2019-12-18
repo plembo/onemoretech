@@ -15,13 +15,18 @@ import os
 import math
 import argparse
 
+repopath = "/home/philip/tmp/mygists"
+
 parser = argparse.ArgumentParser()
-parser.add_argument("user", help="Github user name")
+parser.add_argument("--user", help="Github user name")
+parser.add_argument("--path", default=".", help="Output path")
 args = parser.parse_args()
 if args.user:
     gituser = args.user
+if args.output:
+    outpath = args.path
 
-perpage = 25.0
+perpage = 75.0
 userurl = urlopen('https://api.github.com/users/' + gituser)
 public_gists = json.load(userurl)
 gistcount = public_gists['public_gists']
@@ -29,7 +34,9 @@ print("Found gists : " + str(gistcount))
 pages = int(math.ceil(float(gistcount)/perpage))
 print("Found pages : " + str(pages))
 
-f = open('./contents.txt', 'w')
+os.chdir(outpath)
+
+f = open('contents.txt', 'w')
 
 for page in range(pages):
     pageNumber = str(page + 1)
