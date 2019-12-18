@@ -23,7 +23,7 @@ parser.add_argument("--path", default=".", help="Output path")
 args = parser.parse_args()
 if args.user:
     gituser = args.user
-if args.output:
+if args.path:
     outpath = args.path
 
 perpage = 75.0
