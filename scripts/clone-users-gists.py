@@ -15,8 +15,6 @@ import os
 import math
 import argparse
 
-repopath = "/home/philip/tmp/mygists"
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--user", help="Github user name")
 parser.add_argument("--path", default=".", help="Output path")
