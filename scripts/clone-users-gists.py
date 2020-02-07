@@ -32,7 +32,14 @@ print("Found gists : " + str(gistcount))
 pages = int(math.ceil(float(gistcount)/perpage))
 print("Found pages : " + str(pages))
 
-os.chdir(outpath)
+if os.path.isdir(outpath):
+    os.chdir(outpath)
+else:
+    try:
+        os.mkdir(outpath)
+        os.chdir(outpath)
+    except OSError:
+        print("Creation of directory %s failed" % outpath)
 
 f = open('contents.txt', 'w')
 
@@ -58,4 +65,3 @@ for page in range(pages):
             call(['git', 'clone', gistUrl])
 
 f.close()
-
