@@ -1,0 +1,41 @@
+dn: cn=config
+changetype: modify
+replace: ds-cfg-check-schema
+ds-cfg-check-schema: false
+-
+replace: ds-cfg-idle-time-limit
+ds-cfg-idle-time-limit: 1800 seconds
+-
+replace: ds-cfg-invalid-attribute-syntax-behavior
+ds-cfg-invalid-attribute-syntax-behavior: warn
+-
+replace: ds-cfg-lookthrough-limit
+ds-cfg-lookthrough-limit: 0
+-
+replace: ds-cfg-single-structural-objectclass-behavior
+ds-cfg-single-structural-objectclass-behavior: warn
+-
+replace: ds-cfg-size-limit
+ds-cfg-size-limit: 25000
+-
+replace: ds-cfg-time-limit
+ds-cfg-time-limit: 300 seconds
+
+dn: cn=Root Password Policy,cn=Password Policies,cn=config
+changetype: modify
+replace: ds-cfg-allow-pre-encoded-passwords
+ds-cfg-allow-pre-encoded-passwords: true
+
+dn: cn=Default Password Policy,cn=Password Policies,cn=config
+changetype: modify
+replace: ds-cfg-allow-pre-encoded-passwords
+ds-cfg-allow-pre-encoded-passwords: true
+
+dn: ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+changetype: modify
+replace: ds-cfg-db-cache-percent
+ds-cfg-db-cache-percent: 50
+-
+replace: ds-cfg-index-entry-limit
+ds-cfg-index-entry-limit: 100000
+
