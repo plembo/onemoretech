@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "One Dark Darker",
+    "editor.renderControlCharacters": false,
+
+    // Enable usage data and errors to be sent to Microsoft.
+    "telemetry.enableTelemetry": false,
+    // Enable crash reports to be sent to Microsoft.
+    // This option requires restart to take effect.
+    "telemetry.enableCrashReporter": false,
+
+    // Fix bug in Linux terminal font sizing
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.fontFamily": "Fira Code",
+    "python.autoComplete.addBrackets": true,
+    "editor.fontSize": 16,
+    "editor.largeFileOptimizations": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "workbench.iconTheme": "ayu",
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfPath": "yapf",
+    "python.formatting.autopep8Path": "",
+    "python.formatting.blackPath": "",
+    "python.linting.banditPath": "bandit",
+    "python.linting.flake8Path": "flake8",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeightBold": "normal",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "git-rebase-todo"
+        }
+    ],
+    "python.languageServer": "Jedi",
+    "python.analysis.completeFunctionParens": true
+}
