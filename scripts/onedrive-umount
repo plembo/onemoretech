@@ -1,0 +1,4 @@
+#!/bin/bash
+# Unmount the rclone mounted onedrive at ~/OneDrive
+/bin/fusermount -uz ${HOME}/OneDrive
+

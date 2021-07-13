@@ -1,0 +1,6 @@
+#!/bin/bash
+# Mount onedrive remote at ~/OneDrive in background
+/usr/bin/rclone \
+--vfs-cache-mode writes \
+mount onedrive: ${HOME}/OneDrive --daemon
+
