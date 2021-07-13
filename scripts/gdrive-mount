@@ -1,0 +1,6 @@
+#!/bin/bash
+# Mount Google Drive remote at ~/Drive in background
+/usr/bin/rclone \
+--vfs-cache-mode writes \
+mount gdrive: ${HOME}/Drive --daemon
+
