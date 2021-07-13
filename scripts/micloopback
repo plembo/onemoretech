@@ -12,8 +12,8 @@ if [[ $1 == "on"  ]]; then
     pactl load-module module-loopback latency_msec=1
     echo "pulseaudio loopback module loaded"
 elif [[ $1 == "off" ]]; then
-    pactl unload-module module-loopback
-    echo "pulseaudio loopback module unloaded"
+    pulseaudio -k
+    echo "restart pulseaudio to unload loopback"
 else
     echo "Usage: $0 [on|off]" 
 fi
