@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=onedrive.png
+Exec=firefox https://onedrive.live.com/?id=root&cid=3F8255E717DE1BCB
+Name=OneDrive
+Categories=Application;WebApps;
+

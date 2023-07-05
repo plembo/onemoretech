@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=outlook.png
+Exec=firefox https://outlook.live.com/mail/0/inbox
+Name=Outlook
+Categories=Application;WebApps;
+
