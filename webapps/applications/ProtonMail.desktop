@@ -1,9 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Icon=protonmail.png
-Exec=firefox https://mail.protonmail.com/u/0/inbox
-Categories=Application;WebApps;
-Name=ProtonMail
