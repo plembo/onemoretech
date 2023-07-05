@@ -4,7 +4,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Icon=mastodon.png
-Exec=firefox https://mastodon.sdf.org/home 
+Exec=firefox -new-window https://mastodon.sdf.org/home 
 Name=Mastodon
 Categories=Application;WebApps;
 

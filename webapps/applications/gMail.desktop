@@ -4,7 +4,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Icon=gmail.png
-Exec=firefox https://mail.google.com/mail/u/0/#inbox
+Exec=firefox -new-window https://mail.google.com/mail/u/0/#inbox
 Name=Gmail
 Categories=Application;WebApps;
 

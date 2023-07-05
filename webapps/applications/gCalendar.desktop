@@ -4,7 +4,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Icon=gcalendar.png
-Exec=firefox https://calendar.google.com/calendar/u/0/r 
+Exec=firefox -new-window https://calendar.google.com/calendar/u/0/r 
 Name=Google Calendar
 Categories=Application;WebApps;
 
