@@ -3,7 +3,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Icon=gdrive.png
+Icon=google-drive-logo-svgrepo-com.svg
 Exec=firefox -new-window https://drive.google.com/drive/my-drive
 Name=Google Drive
 Categories=Application;WebApps;

@@ -3,7 +3,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Icon=messages.png
+Icon=google-messages-icon-wikimedia.svg
 Exec=firefox -new-window https://messages.google.com/web/conversations 
 Name=Messages
 Description=Messages by Google

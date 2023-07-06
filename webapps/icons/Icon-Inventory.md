@@ -1,17 +1,18 @@
 # Icon Inventory
 Following is an inventory of the icons used here:
 
-| Name                                  | Size    | Source            |
-|:--------------------------------------|:--------|:------------------|
-| icons8-gmail-48.png                   | 48x48   | icons8.com        |
-| icons8-google-keep-48.png             | 48x48   | icons8.com        |
-| icons8-microsoft-onedrive-2019-48.png | 48x48   | icons8.com        |
-| icons8-microsoft-outlook-2019-48.png  | 48x48   | icons8.com        |
-| icons9-microsoft-onenote-2019-48.png  | 48x48   | icons8.com        |
-| icons8-gcalendar-48.png               | 48x48   | icons8.com        |
-| icon-72x72.png (runbox.png)		    | 72x72   | github.com/runbox |
-| icons8-google-drive-48.png            | 48x48   | icons8.com        |
-| icons8-mastodon-48.png                | 48x48   | icons8.com        |
+| Name                               | Size    | Source            |
+|:-----------------------------------|:--------|:------------------|
+| gmail-svgrepo-com.svg              | 800x800 | svgrepo.com       |
+| google-keep-svgrepo-com.svg        | 800x800 | svgrepo.com       |
+| ms-onedrive-svgrepo-com.svg        | 800x800 | svgrepo.com       |
+| ms-outlook-svgrepo-com.svg         | 800x800 | svgrepo.com       |
+| ms-onenote-svgrepo-com.svg         | 800x800 | svgrepo.com       |
+| google-calendar-svgrepo-com.svg    | 800x800 | svgrepo.com       |
+| icon-72x72.png (runbox.png)		 | 72x72   | github.com/runbox |
+| google-drive-logo-svgrepo-com.svg  | 800x800 | svgrepo.com       |
+| google-messages-icon.svg           | 192x192 | wikimedia.org     |
+| mastodon-svgrepo-com.svg           | 800x800 | svgrepo.com       |
+| lemmy-logo-no-border.svg           | 1024x1024 | github.com/forkawesome |
 
-Icons from icons8, copyright by https://icons8.com and used under a free license, https://intercom.help/icons8-7fb7577e8170/en/articles/5534926-universal-multimedia-license-agreement-for-icons8.
 
