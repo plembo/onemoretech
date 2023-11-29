@@ -3,8 +3,8 @@
 Version=1.0
 Type=Application
 Terminal=false
-Icon=mastodon-logo.svg
-Exec=firefox -new-window https://mastodon.sdf.org/home 
-Name=Mastodon
+Icon=protonmail-favicon.svg
+Exec=firefox -new-window https://mail.proton.me/u/0/inbox 
+Name=Proton Mail
 Categories=Application;WebApps;
 
