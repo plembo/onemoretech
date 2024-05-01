@@ -1,6 +1,8 @@
 # README for custom Ubuntu webapp launchers
 This folder contains application shortcuts and icons for various "webapps" on Ubuntu Desktop, using Firefox browser.
 
+When launched each app opens up in a new Firefox window with full "ornamentation" (i.e.: tabs, search window/address bar, bookmarks toolbar, etc.). Out of box, Firefox provides few opportunities to customize individual windows without using additional user profiles that add another layer of complexity. Given how often web app sessions involve launching a new browser tab or window (e.g., when a link is opened in an email), limiting the controls provided in a web app window often turns out to be more trouble than it's worth.
+
 ## Instructions
 * Copy .desktop files to ~/.local/share/applications 
 * Copy icon files to ~/.local/share/icons
